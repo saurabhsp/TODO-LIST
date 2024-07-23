@@ -1,38 +1,161 @@
+/* .App {
+  text-align: center;
+}
+body {
+  background-color: aquamarine;
+}
+
+.container {
+  background-color: rgb(7, 2, 71);
+  justify-content: center;
+  max-width: 50%;
+  margin-left: 26%;
+  margin-top: 5%;
+  text-align: center;
+  padding: 20px;
+}
+input[type=text],
+select {
+  width: 80%;
+  padding: 12px 20px;
+  margin: 30px 0;
+  display: inline-block;
+  border: 2px dotted #c400f581;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+button {
+  width: 15%;
+  background-color: rgb(38, 63, 0);
+  color: white;
+  padding: 14px 20px;
+  margin: 9px 0;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+button:hover {
+  background-color: greenyellow;
+}
+.header {
+  max-width: 100%;
+  padding: 12px 20px;
+  color: whitesmoke;
+  font-size: 50px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.List-heading {
+  color: black;
+  font-size: 50px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: left;
+  background-color: cadetblue;
+  width: 60%;
+}
+.listData {
+  color: black;
+  font-size: 20px;
+  background-color: rgb(164, 203, 237);
+  text-align: left;
+  width: 53%;
+  padding-bottom: 2%;
+  padding-top: 2%;
+  border-radius: 10px;
+}
+.btn-position{
+  position: relative;
+  left: 11%;
+  top: 54%;
+} */
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-color: aquamarine;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.container {
+  background-color: rgb(7, 2, 71);
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  max-width: 50%;
+  margin-left: 26%;
+  margin-top: 5%;
+  text-align: center;
+  padding: 20px;
+}
+
+input[type=text], select {
+  width: 80%;
+  padding: 12px 20px;
+  margin: 30px 0;
+  display: inline-block;
+  border: 2px dotted #c400f581;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+button {
+  width: 15%;
+  background-color: rgb(38, 63, 0);
   color: white;
+  padding: 14px 20px;
+  margin: 9px 0;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
 }
 
-.App-link {
-  color: #61dafb;
+button:hover {
+  background-color: greenyellow;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.header {
+  max-width: 100%;
+  padding: 12px 20px;
+  color: whitesmoke;
+  font-size: 50px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.List-heading {
+  color: black;
+  font-size: 50px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: left;
+  background-color: cadetblue;
+  width: 60%;
+}
+
+.list-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+.listData {
+  color: black;
+  font-size: 20px;
+  background-color: rgb(164, 203, 237);
+  text-align: left;
+  width: 70%;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.btn-position {
+  background-color: rgb(255, 69, 58);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.btn-position:hover {
+  background-color: rgb(255, 99, 71);
 }
